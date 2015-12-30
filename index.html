@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <link href='https://fonts.googleapis.com/css?family=Teko:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Orbitron:400,700' rel='stylesheet' type='text/css'>
+
+<div class='woodTable'>
+
+  <div class='simonSays'>
+    <div class='innerCircle'>
+      <div class='topCircle'>
+        <div class='pic'><img src='http://i.imgur.com/7hD07Ll.png'></div>
+        <div class='logo'>simon<span id='registered'>®</span></div></div>
+      <div class='numBox'>--</div>
+      <label class="switch switch-green">
+        <input type="checkbox" class="switch-input">
+        <span class="switch-label" data-on="On" data-off="Off"></span>
+        <span class="switch-handle"></span>
+      </label>
+
+    </div>
+    <div class='buttons'>
+
+      <a href="#" class='green'>
+         </a>
+      <a href="#" class='red'>
+        
+      </a>
+      <a href="#" class='yellow'>
+        </a>
+      <a href="#" class='blue'>
+         </a>
+      <a href="#" class='unclick'>
+         </a>
+
+    </div>
+  </div>
+
+ <audio src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" id='greenSound' />
+<audio src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" id='redSound' />
+<audio src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" id='yellowSound' />
+<audio src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" id='blueSound' />
+  <audio src="http://wavcentral.com/sounds/televis/price_is_right/tpirhorns.mp3" id="loss"/>
+  
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
